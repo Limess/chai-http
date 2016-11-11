@@ -126,6 +126,7 @@ chai.request(app)
      expect(res).to.have.status(200);
   });
 ```
+
 ##### Caveat
 Because the `end` function is passed a callback, assertions are run
 asynchronously. Therefore, a mechanism must be used to notify the testing
